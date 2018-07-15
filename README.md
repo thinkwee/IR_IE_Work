@@ -49,13 +49,15 @@ http://127.0.0.1:8000
 ## 效果图
 -	检索
 ![检索](http://ojtdnrpmt.bkt.clouddn.com/ir.png)
--	三种检索模式结果
+-	结巴tfidf检索结果
 ![检索1](http://ojtdnrpmt.bkt.clouddn.com/irr1.png)
+-	词嵌入检索结果
 ![检索2](http://ojtdnrpmt.bkt.clouddn.com/irr2.png)
+-	归一化检索结果
 ![检索3](http://ojtdnrpmt.bkt.clouddn.com/irr3.png)
 
 ##	已知问题
-由于归一化tfidf是另外一位同学缩写，在处理标题上会存在一点不兼容，可能遇到词典查找错误，可在view.py和response.html中删除相应部分，直接修改运行segment.py进行检索。
+由于归一化tfidf在处理标题上会存在一点不兼容，可能遇到词典查找错误，可在view.py和response.html中删除相应部分，直接修改运行segment.py进行检索。
 
 ##	数据
 数据爬取自北邮人论坛缘来如此板块，需要的同学可以自行修改爬虫爬取，暂时不提供帖子数据，注意需输入自己的用户名和密码登录
