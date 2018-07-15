@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="static/mod.css" type="text/css"/>
+</head>
+
+<body>
+<div id="main" style="text-align: center">
+    <div id="pic" style="text-align: center;">
+        <div>
+            <img src="static/search.png">
+        </div>
+    </div>
+    <div id="text" style="text-align: center;margin: 20px">
+        <div style="display: inline-block">
+
+            <form method='post'>
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" value="缘分一下">
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    font-family: Microsoft YaHei;
+}
+#main{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+
+}
+
+#button_sub{
+    background: darkslateblue;
+
+}
