@@ -47,14 +47,9 @@ http://127.0.0.1:8000
 载入搜索界面并使用
 
 ## 效果图
--	检索
-![检索](http://ojtdnrpmt.bkt.clouddn.com/ir.png)
--	结巴tfidf检索结果
-![检索1](http://ojtdnrpmt.bkt.clouddn.com/irr1.png)
--	词嵌入检索结果
-![检索2](http://ojtdnrpmt.bkt.clouddn.com/irr2.png)
--	归一化检索结果
-![检索3](http://ojtdnrpmt.bkt.clouddn.com/irr3.png)
+-	![image1](https://github.com/thinkwee/IR_IE_Work/blob/master/image/1.jpg)
+-	![image2](https://github.com/thinkwee/IR_IE_Work/blob/master/image/2.jpg)
+-	![image3](https://github.com/thinkwee/IR_IE_Work/blob/master/image/3.jpg)
 
 ##	已知问题
 由于归一化tfidf在处理标题上会存在一点不兼容，可能遇到词典查找错误，可在view.py和response.html中删除相应部分，直接修改运行segment.py进行检索。
